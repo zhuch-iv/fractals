@@ -36,4 +36,4 @@ jobs:
         restore-keys: ${{ runner.os }}-m2
         
     - name: Test with Maven
-      run: ./mvnw -B clean test
+      run: mvn -B clean test
